@@ -5,8 +5,8 @@
 }
 
 body {
-  background-color: #0b142b;
-  color: #38bdf8;
+  background-color: #1e1b4b;
+  color: #a5f3fc;
   font-family: Arial, sans-serif;
   min-height: 100vh;
   display: flex;
@@ -43,6 +43,7 @@ input {
   border: none;
   font-size: 16px;
   margin-bottom: 16px;
+  color: #333;
 }
 
 button {
@@ -71,4 +72,9 @@ button {
   margin: 16px 0;
   font-size: 18px;
   color: #facc15;
+}
+
+button:active {
+  transform: scale(0.95);
+  transition: transform 0.15s ease;
 }
